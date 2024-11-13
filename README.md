@@ -17,3 +17,7 @@ The goal of this project is to create a Telegram bot that generates presentation
 - ask gemini to create code for presentation based on this text
 - run code and receive PP presentation
 6. pull pptx  presentations to bot
+
+## Example of usage:
+![TelegramScreen1!](TelegramScreen1.png)
+![TelegramScreen2!](TelegramScreen2.png)
