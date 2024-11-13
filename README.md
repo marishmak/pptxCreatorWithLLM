@@ -9,14 +9,15 @@ The goal of this project is to create a Telegram bot that generates presentation
 
 1. start bot
 2. extract pdf from bot
-3. extract topics from pdf page by page and pull it to db using gemini to summarize and preprocess
+3. extract topics from pdf page by page and pull it to db using Gemini to summarize and preprocess
 4. receive list of topic per course from bot
-5. iterate over topics: 
-- extract text from db using custom embedding function (Sentence Transformer)
-- checking the similarity of files and topics using Squared L2 distance
-- ask gemini to create code for presentation based on this text
-- run code and receive PP presentation
-6. pull pptx  presentations to bot
+5. iterate over topics: 
+     - extract text from db using custom embedding function (Sentence Transformer)
+     - checking the similarity of files and topics using Cosine distance 
+     - ask Gemini to create code for presentation based on this text
+     - run code and receive PP presentation
+6. pull PP  presentations to bot
+
 
 ## Example of usage:
 ![TelegramScreen1!](TelegramScreen1.png)
